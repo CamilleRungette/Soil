@@ -19,17 +19,20 @@ a{
 }
 
 .screen1{
-  width: 50%;
+  width: 100%;
   overflow: hidden;
 }
 .screen2{
-  width: 50%;
+  width: 0%;
   overflow: hidden;
 }
 .photo-screen{
   width: 100%;
   height: 85vh;
   object-fit: cover;
+}
+.photo-bottom{
+  object-position: bottom;
 }
 
 .footer{
