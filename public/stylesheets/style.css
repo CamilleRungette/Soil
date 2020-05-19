@@ -104,7 +104,7 @@ a{
     font-size: 70%;
   }
   .logo{
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
   .contact-div{
@@ -114,7 +114,6 @@ a{
   .progress{
     text-align: center;
     width: 100%;
-    margin-top: 10%;
   }
   .progress-p{
     font-size: 70%;
