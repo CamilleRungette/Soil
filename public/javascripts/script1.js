@@ -33,7 +33,7 @@ console.log("cv")
       $(`#screen${i}-1`).next().fadeIn(1500);
       $(`#screen${i}-2`).fadeOut().next().fadeIn();
 
-  }else {
+  } else {
 
     $(`#screen${i}-1`).fadeOut("slow");
     setTimeout(function(){

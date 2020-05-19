@@ -25,6 +25,7 @@ a{
 .screen2{
   width: 0%;
   overflow: hidden;
+
 }
 .photo-screen{
   width: 100%;
@@ -84,4 +85,45 @@ text-align: center;
   border: black 2px solid;
   padding: 30%;
   border-radius: 100%;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+  .screen1{
+    height: 50vh;
+  } 
+  .screen2{
+    height: 50vh;
+  }
+  .photo-screen{
+    height: 50vh;
+}
+  .footer{
+    display: block;
+  }
+  .logo-div{
+    width: 100%
+  }
+  .logo-sm-div{
+    width: 100%;
+  }
+  .contact-div{
+    width: 100%;
+    display: block;
+  }
+  .progress{
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .progress-p{
+    font-size: 80%;
+  }
+  .email{
+    width: 20%;
+    margin: auto;
+  }
+  .fa-envelope{
+    font-size: 80%;
+  }
 }
