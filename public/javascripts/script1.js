@@ -11,8 +11,8 @@
 // let screen1 = $("#screen1");
 // let screen2 = $("#screen2");
 
-$('#screen2-1').hide();
-$('#screen3-1').hide();
+$('#screen2-1').hide()
+$('#screen3-1').hide()
 $('#screen4-1').hide();
 $('#screen5-1').hide();
 $('#screen6-1').hide();
@@ -21,18 +21,17 @@ $('#screen8-1').hide();
 
 let i = 1;
 setInterval(function() {
-  console.log($(`#screen8-2`).attr('class')[0]);
   
-
+console.log("cv")
   if($(`#screen${i}-2`).attr('class')[0] != "n"){
 
       $(`#screen${i}-1`).fadeOut("slow")
       setTimeout(function(){
         $('.screen1').css("width", "100%")
         $('.screen2').css("width", "0%")
-      }, 500)
+      }, 550)
       $(`#screen${i}-1`).next().fadeIn(1500);
-      $(`#screen${i}-2`).fadeOut("slow").next().fadeIn(1500);
+      $(`#screen${i}-2`).fadeOut().next().fadeIn();
 
   }else {
 
@@ -40,7 +39,7 @@ setInterval(function() {
     setTimeout(function(){
       $('.screen1').css("width", "50%")
       $('.screen2').css("width", "50%")
-    }, 500)
+    }, 550)
     $(`#screen${i}-1`).next().fadeIn(1500)
     $(`#screen${i}-2`).fadeOut("slow").next().fadeIn(1500);
   
