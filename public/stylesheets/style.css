@@ -49,16 +49,10 @@ a{
 
 .logo-div{
   width: 50%;
-  padding-left: 1%;
-}
-.logo-sm-div{
-width: 37%;
-text-align: center;
 }
 .logo{
-  width: 70%;
+  width: 30%;
   margin-bottom: -3%;
-  margin-left: 2%;
 }
 .logo-desc{
   font-size: 90%;
@@ -74,14 +68,15 @@ text-align: center;
   margin-top: 4%;
 }
 .progress-p{
-  font-size: 100%;
+  font-size: 80%;
 }
 .email{
   margin-left: 3%;
-  margin-top: 6%;
+  height: 100%;
 }
 .fa-envelope{
-  font-size: 100%;
+  margin-top: 100%;
+  font-size: 90%;
   border: black 2px solid;
   padding: 30%;
   border-radius: 100%;
@@ -90,22 +85,27 @@ text-align: center;
 
 @media screen and (min-width: 100px) and (max-width: 600px){
   .screen1{
-    height: 50vh;
+    height: 65vh;
   } 
   .screen2{
-    height: 50vh;
+    height: 65vh;
   }
   .photo-screen{
-    height: 50vh;
+    height: 65vh;
 }
   .footer{
     display: block;
   }
   .logo-div{
-    width: 100%
-  }
-  .logo-sm-div{
     width: 100%;
+    text-align: center;
+  }
+  .logo-desc{
+    font-size: 70%;
+  }
+  .logo{
+    width: 70%;
+    margin: auto;
   }
   .contact-div{
     width: 100%;
@@ -117,13 +117,15 @@ text-align: center;
     margin-top: 10%;
   }
   .progress-p{
-    font-size: 80%;
+    font-size: 70%;
   }
   .email{
     width: 20%;
     margin: auto;
+    height: 50%;
   }
   .fa-envelope{
     font-size: 80%;
+    margin-top: 0%;
   }
 }
