@@ -1,25 +1,31 @@
-let screen1Array = [
-  "/images/screen2-1.jpeg",
-  "/images/screen3-1.jpeg",
-  "/images/screen1-1.jpeg",  
-]
+// let screen1Array = [
+//   "/images/screen2-1.jpeg",
+//   "/images/screen3-1.jpeg",
+//   "/images/screen1-1.jpeg",  
+// ]
+// let screen2Array = [
+//   "/images/screen2-2.jpeg",
+//   "/images/screen3-2.jpeg",
+//   "/images/screen1-2.jpeg",  
+// ]
+// let screen1 = $("#screen1");
+// let screen2 = $("#screen2");
 
-let screen2Array = [
-  "/images/screen2-2.jpeg",
-  "/images/screen3-2.jpeg",
-  "/images/screen1-2.jpeg",  
-]
+$('#screen2-1').hide();
+$('#screen3-1').hide();
 
-let screen1 = $("#screen1");
-let screen2 = $("#screen2");
+$('#screen2-2').hide();
+$('#screen3-2').hide();
 
-let i = 0;
-
+let i = 1;
 setInterval(function() {
-      screen1.attr('src', screen1Array[i])
-      screen2.attr('src', screen2Array[i])
-      i = i + 1;
-      if (i == screen1Array.length) {
-        i =  0;
-      }
-}, 5000);
+  console.log(i);  
+  $(`#screen${i}-1`).fadeOut("slow").next().fadeIn("slow");
+  $(`#screen${i}-2`).delay(100).fadeOut("slow").next().fadeIn("slow");
+  
+  i = i + 1;
+  if (i === 4) {
+    i = 1;
+  }
+}, 4000);
+

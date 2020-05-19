@@ -19,12 +19,12 @@ a{
 }
 
 .screen1{
-  background-color: khaki;
   width: 50%;
+  overflow: hidden;
 }
 .screen2{
-  background-color: lavenderblush;
   width: 50%;
+  overflow: hidden;
 }
 .photo-screen{
   width: 100%;
