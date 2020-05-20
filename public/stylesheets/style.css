@@ -49,12 +49,14 @@ a{
   justify-content: space-between;
   padding-right: 3%;
   position: relative;
+  background-color: darkcyan;
 }
 
 .logo-div{
   width: 300px;
   text-align: center;
   padding-top: 1%;
+  background-color: darkblue;
 }
 .logo{
   width:200px;
@@ -71,6 +73,7 @@ a{
   flex-direction: row;
   align-items: center;
   height: 100%;
+  background-color: darkblue;
 }
 .progress-p{
   font-size: 14px;
