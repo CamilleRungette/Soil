@@ -99,6 +99,7 @@ a{
 }
   .footer{
     display: block;
+    padding: 0;
   }
   .logo-div{
     width: 100%;
@@ -114,21 +115,13 @@ a{
   .contact-div{
     width: 100%;
     display: block;
-  }
-  .progress{
     text-align: center;
-    width: 100%;
   }
   .progress-p{
     font-size: 70%;
   }
-  .email{
-    width: 20%;
-    margin: auto;
-    height: 50%;
-  }
   .fa-envelope{
-    font-size: 80%;
-    margin-top: 0%;
+    font-size: 17px;
+    margin: 0%;
   }
 }
