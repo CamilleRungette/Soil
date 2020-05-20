@@ -15,7 +15,7 @@ a{
 
 .main{
   display: flex;
-  max-height: 87.5vh;
+  max-height: 88%;
 }
 
 .screen1{
@@ -29,7 +29,7 @@ a{
 }
 .photo-screen{
   width: 100%;
-  height: 87.5vh;
+  height: 100%;
   object-fit: cover;
   z-index: -3;
 }
@@ -41,7 +41,10 @@ a{
 }
 
 .footer{
-  height: 12vh;
+  margin-top: auto;
+  position: absolute;
+  bottom: -.5%;
+  height: 13%;
   display: flex;
   justify-content: space-between;
   padding-right: 3%;
@@ -67,7 +70,7 @@ a{
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 14vh;
+  height: 100%;
 }
 .progress-p{
   font-size: 14px;
