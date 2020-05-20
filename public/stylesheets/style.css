@@ -64,14 +64,14 @@ a{
 .contact-div{
   width: 25em;
   text-align: end;
-  position: absolute;
-  top: 60%;
-  right: 30px;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 14vh;
 }
 .progress-p{
   font-size: 14px;
+  width: 100%;
 }
 .fa-envelope{
   font-size: 14px;
