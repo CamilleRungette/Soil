@@ -66,11 +66,11 @@ a{
   height: 12vh;
 }
 .progress-p{
-  font-size: 80%;
+  font-size: 14px;
   margin-top: 6vh;
 }
 .fa-envelope{
-  font-size: 90%;
+  font-size: 14px;
   border: black 2px solid;
   border-radius: 100%;
   padding: 1%;
