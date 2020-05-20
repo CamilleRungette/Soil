@@ -64,9 +64,8 @@ a{
 .contact-div{
   width: 25em;
   text-align: end;
-  margin: 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 30px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
