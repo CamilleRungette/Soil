@@ -45,6 +45,7 @@ a{
   display: flex;
   justify-content: space-between;
   padding-right: 3%;
+  position: relative;
 }
 
 .logo-div{
@@ -63,11 +64,15 @@ a{
 .contact-div{
   width: 25em;
   text-align: end;
-  height: 12vh;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .progress-p{
   font-size: 14px;
-  margin-top: 6vh;
 }
 .fa-envelope{
   font-size: 14px;
