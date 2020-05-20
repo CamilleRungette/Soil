@@ -41,17 +41,19 @@ a{
 }
 
 .footer{
-  height: 12.5vh;
+  height: 14vh;
   display: flex;
+  justify-content: space-between;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 3%;
 }
 
 .logo-div{
-  width: 50%;
+  width: 22em;
+  height: 14vh;
 }
 .logo{
-  width: 30%;
+  width:13em;
   margin-bottom: -3%;
 }
 .logo-desc{
@@ -59,27 +61,20 @@ a{
 }
 
 .contact-div{
-  width: 50%;
-  display: flex;
-}
-.progress{
-  width: 90%;
-  text-align: right;
-  margin-top: 4%;
+  width: 25em;
+  text-align: end;
+  height: 14vh;
 }
 .progress-p{
   font-size: 80%;
-}
-.email{
-  margin-left: 3%;
-  height: 100%;
+  margin-top: 6vh;
 }
 .fa-envelope{
-  margin-top: 100%;
   font-size: 90%;
   border: black 2px solid;
-  padding: 30%;
   border-radius: 100%;
+  padding: 1%;
+  margin-left: 3%;
 }
 
 
