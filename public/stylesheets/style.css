@@ -48,14 +48,12 @@ a{
   justify-content: space-between;
   padding-right: 3%;
   position: relative;
-  background-color: darkcyan;
 }
 
 .logo-div{
   width: 300px;
   text-align: center;
   padding-top: 1%;
-  background-color: darkblue;
   height: 100%;
 }
 .logo{
@@ -73,7 +71,6 @@ a{
   flex-direction: row;
   align-items: center;
   height: 100%;
-  background-color: darkblue;
   margin-top: auto;
   margin-bottom: auto;
 }
