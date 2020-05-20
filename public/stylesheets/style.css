@@ -44,7 +44,6 @@ a{
   margin-top: auto;
   position: absolute;
   bottom: -.5%;
-  height: 13%;
   display: flex;
   justify-content: space-between;
   padding-right: 3%;
@@ -57,6 +56,7 @@ a{
   text-align: center;
   padding-top: 1%;
   background-color: darkblue;
+  height: 100%;
 }
 .logo{
   width:200px;
@@ -74,6 +74,8 @@ a{
   align-items: center;
   height: 100%;
   background-color: darkblue;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .progress-p{
   font-size: 14px;
