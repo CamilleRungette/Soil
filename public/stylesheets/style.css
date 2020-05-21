@@ -2,7 +2,7 @@ body {
   font: 1.4em 'Montserrat', "Lucida Grande", sans-serif;
   width: 100vw;
   overflow-x: hidden;
-  height: 98vh;
+  height: 99vh;
   margin-top: 0%;
   margin-left: 0%;
 }
@@ -40,7 +40,7 @@ a{
 
   .main{
     display: flex;
-    height: 93%;
+    height: 88%;
   }
   .photo-bottom{
     object-position: bottom;
@@ -55,17 +55,20 @@ a{
     justify-content: space-between;
     padding-right: 3%;
     position: relative;
-    height: 9%;
+    height: 12%;
   }
 
   .logo-div{
     width: 300px;
     text-align: center;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .logo{
-    width:200px;
-    margin-bottom: -2%;
+    width:180px;
   }
   .logo-desc{
     font-size: 14px;
@@ -78,7 +81,6 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 100%;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -90,6 +92,9 @@ a{
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px){
+  body{
+    height: 96vh;
+  }
   .main{
     height: 70%;  
     display: flex;
