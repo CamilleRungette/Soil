@@ -40,7 +40,7 @@ a{
 
   .main{
     display: flex;
-    height: 92%;
+    height: 93%;
   }
   .photo-bottom{
     object-position: bottom;
@@ -55,6 +55,7 @@ a{
     justify-content: space-between;
     padding-right: 3%;
     position: relative;
+    height: 9%;
   }
 
   .logo-div{
