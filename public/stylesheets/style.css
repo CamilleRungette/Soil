@@ -96,7 +96,7 @@ a{
     height: 96vh;
   }
   .main{
-    height: 70%;  
+    height: 65%;  
     display: flex;
   }
   .footer{
@@ -113,6 +113,7 @@ a{
   .logo{
     width: 60%;
     margin: auto;
+    margin-bottom: -2%;
   }
   .contact-div{
     width: 100%;
@@ -125,4 +126,3 @@ a{
   .fa-envelope{
     font-size: 17px;
   }
-}
