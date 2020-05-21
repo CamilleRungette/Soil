@@ -40,7 +40,7 @@ a{
 
   .main{
     display: flex;
-    height: 93%;
+    height: 92%;
   }
   .photo-bottom{
     object-position: bottom;
@@ -50,7 +50,6 @@ a{
   }
 
   .footer{
-    height: 9%;
     margin-top: auto;
     display: flex;
     justify-content: space-between;
