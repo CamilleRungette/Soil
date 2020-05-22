@@ -10,20 +10,23 @@ let screen1Array = [
   "/images/screen1-1.jpeg",  
 ]
  let i=0;
+// // An image and a background image:
+// //image opacity 0, image src become background image, opacity 1, background becomes next image
+// // Problem bcse of background image and image covering
 
-  s1.addEventListener('click', function(){
-    // this.style.opacity = 0;
-    s1.setAttribute('src', screen1Array[i]);
-    this.style.transition = "2s";
+//   s1.addEventListener('click', function(){
+//     this.style.opacity = 0;
+//     this.style.transitionDuration = "1s";
     
-    setTimeout(function(){
-      s1.style.opacity = "1";
-      s2.style.backgroundImage = `url(${screen1Array[i+1]})`;
-    }, 1000);
+//     setTimeout(function(){
+//       s1.setAttribute('src', screen1Array[i]);
+//       s1.style.opacity = "1";
+//       s2.style.backgroundImage = `url(${screen1Array[i+1]})`;
+//     }, 1000);
     
-    i+=1;
-    if (i === screen1Array.length){ i=0}
-  })
+//     i+=1;
+//     if (i === screen1Array.length){ i=0}
+//   })
 
 // $('#screen2-1').hide()
 // $('#screen3-1').hide()
@@ -34,6 +37,9 @@ let screen1Array = [
 // $('#screen8-1').hide();
 
 // let i = 1;
+
+// // Simple fade out fade in effect:
+// // Problem beacause of white screen between images
 // setInterval(function() {
   
 // console.log("cv")
@@ -66,6 +72,7 @@ let screen1Array = [
 //   }
 // }, 4000);
 
+
 // var f1 = $('#_screen1-1_');
 // var f2 = $('#_screen2-1_');
 // var f3 = $('#_screen3-1_');
@@ -81,9 +88,10 @@ let screen1Array = [
 // f4.delay(12000).fadeOut(1500);
 // f5.delay(16000).fadeOut(1500);
 
+
+// // Trying to shirt places in array and in ejs page
 // var fadeArray = [f1, f2, f3, f4, f5, f6, f7, f8];
 // console.log(screen1.children().last());
-
 
 // let i=0;
 // screen1.click(function(){
@@ -96,6 +104,7 @@ let screen1Array = [
 
 //   screen1.children().last().css("opacity", 1)
   
+
 // })
 
 
@@ -114,9 +123,14 @@ let screen1Array = [
 //         fadeArray[j].delay(2000).css('z-index', 0);
 //       }
 //     } 
+
 //     // fadeArray[i].delay(1700).css('opacity', 1)
+
 //   if (i === fadeArray.length){
 //     i=0;
 //   }
+
+
 //   i = i+1
+
 // }, 4000);
