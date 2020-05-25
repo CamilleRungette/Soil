@@ -42,7 +42,7 @@ for (let i = 0; i < defilImg.length; i++) {
     
     setInterval(() => {
       opacityImg();
-    }, 4000);
+    }, 3000);
   }
   
   
